@@ -1,0 +1,19 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="bda.plone.intranet">
+
+  <include package="Products.GenericSetup" file="meta.zcml" />
+
+  <genericsetup:registerProfile
+    name="default"
+    title="Intranet profile of BlueDynamics Alliance"
+    directory="profile"
+    description="Extension profile for Intranets with sane WF etc.."
+    provides="Products.GenericSetup.interfaces.EXTENSION"
+  />
+</configure>
