@@ -7,7 +7,7 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="bda.plone.intranet">
 
-  <include package="Products.GenericSetup" file="meta.zcml" />
+  <include package="Products.GenericSetup" file="meta.zcml" />  
 
   <genericsetup:registerProfile
     name="default"
@@ -16,4 +16,7 @@
     description="Extension profile for Intranets with sane WF etc.."
     provides="Products.GenericSetup.interfaces.EXTENSION"
   />
+  
+  <utility name="Manager" factory=".sharing.LeaderRole"/>
+  
 </configure>

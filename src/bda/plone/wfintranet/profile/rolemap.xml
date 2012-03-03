@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rolemap>
+  <roles>
+    <role name="Leader"/>
+  </roles>
+  <permissions>
+  </permissions>
+  
+</rolemap>
