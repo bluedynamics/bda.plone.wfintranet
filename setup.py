@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '1.0b1'
+version = '1'
 shortdesc = "Intranet Workflow by Bluedynamics Alliance"
 longdesc = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
 
