@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '1.0b3'
+version = '1.0'
 shortdesc = "Intranet Workflow by Bluedynamics Alliance"
 longdesc = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
 longdesc += open(os.path.join(os.path.dirname(__file__), 'HISTORY.rst')).read()
-longdesc += open(os.path.join(os.path.dirname(__file__), 'LICENCE.rst')).read()
+longdesc += open(os.path.join(os.path.dirname(__file__), 'LICENSE.rst')).read()
 
 setup(name='bda.plone.wfintranet',
       version=version,
