@@ -6,7 +6,7 @@ This workflow is meant for intranets with teams (groups).
 A new role ``Leader`` is added. A leader has more
 permissions (see diagram) on items.
 
-.. image:: http://bluedynamics.com/wfintranet.png
+.. image:: http://bluedynamics.com/bda_intranet_workflow.gv.png
 
 Usage:
 ------
