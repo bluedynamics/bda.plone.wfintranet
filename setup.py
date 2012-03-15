@@ -1,9 +1,11 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '1.0b2'
+version = '1.0b3'
 shortdesc = "Intranet Workflow by Bluedynamics Alliance"
 longdesc = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
+longdesc += open(os.path.join(os.path.dirname(__file__), 'HISTORY.rst')).read()
+longdesc += open(os.path.join(os.path.dirname(__file__), 'LICENCE.rst')).read()
 
 setup(name='bda.plone.wfintranet',
       version=version,
@@ -29,13 +31,6 @@ setup(name='bda.plone.wfintranet',
           'setuptools',
           'Plone',
       ],
-      extras_require={
-          'test': [
-              'interlude',
-              'zope.configuration',
-              'zope.testing',
-          ]
-      },      
       entry_points="""
       # -*- Entry points: -*-
 
