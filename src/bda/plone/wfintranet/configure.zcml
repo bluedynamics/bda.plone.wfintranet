@@ -17,6 +17,8 @@
     provides="Products.GenericSetup.interfaces.EXTENSION"
   />
   
-  <utility name="Manager" factory=".sharing.LeaderRole"/>
+   
+  
+  <utility name="Leader" factory=".sharing.LeaderRole"/>
   
 </configure>
