@@ -216,12 +216,14 @@
 			acquired="False">
 			<permission-role>Leader</permission-role>
 			<permission-role>Site Administrator</permission-role>
+            <permission-role>Manager</permission-role>			
 		</permission-map>
 		<permission-map name="Request review" acquired="False">
 			<permission-role>Editor</permission-role>
 			<permission-role>Leader</permission-role>
 			<permission-role>Owner</permission-role>
 			<permission-role>Site Administrator</permission-role>
+            <permission-role>Manager</permission-role>			
 		</permission-map>
 		<permission-map name="Review portal content" acquired="False">
 			<permission-role>Leader</permission-role>
